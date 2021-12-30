@@ -1,0 +1,24 @@
+{
+  "links" : [
+    {
+      "id" : 1,
+      "title" : "Purpose",
+      "href" : "/purpose"
+    },
+    {
+      "id" : 2,
+      "title" : "Our Story",
+      "href" : "/ourstory"
+    },
+    {
+      "id" : 3,
+      "title" : "Our Team",
+      "href" : "/ourteam"
+    },
+    {
+      "id" : 4,
+      "title" : "RoadMap",
+      "href" : "/roadmap"
+    }
+  ]
+}

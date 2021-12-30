@@ -1,0 +1,50 @@
+.app__timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-inline: 30px;
+}
+
+.timer-info {
+  font-size: var(--title-size);
+  font-weight: var(--title-fw);
+  margin-bottom: 0;
+}
+
+.timer-title {
+  margin-top: 0;
+  font-size: var(--text-size);
+  font-weight: var(--text-fw);
+}
+
+@media only screen and (max-width: 450px) {
+  .timer-info {
+    font-size: var(--title-size-sm);
+  }
+  .timer-title {
+    font-size: var(--text-size-sm);
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .timer-info {
+    font-size: 1.25rem;
+  }
+  .timer-title {
+    font-size: 0.5rem;
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cards" : [
+    {
+      "id" : 1,
+      "image" : "purpose.png",
+      "title" : "Purpose",
+      "text" : "We want to make the difference, we want to save lives and our target is to donate an initial amount of 1 dollar per sold Panda.",
+      "link" : "/purpose"
+    },
+    {
+      "id" : 2,
+      "image" : "story.png",
+      "title" : "Our Story",
+      "text" : "So back in 2015 it appeared on the news that an animal shelter was on fire and that they had no money to find a new place for the 500+ animals (dogs and cats) they took care of. ",
+      "link" : "/ourstory"
+    },
+    {
+      "id" : 3,
+      "image" : "team.png",
+      "title" : "Our Team",
+      "text" : "Our team is composed by four members, all friends since elementary school and now we are currently attending University. ",
+      "link" : "/ourteam"
+    }
+  ]
+}

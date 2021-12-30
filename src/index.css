@@ -1,13 +1,56 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  /* Letter type */
+  --font-family: "Kanit", sans-serif;
+
+  /* Letter size */
+  --title-size: 1.875rem; /* 1.875rem = 30px, Page title & Timer numbers */
+  --navtitle-size: 1.375rem; /* 1.375rem = 22px, NavTitle */
+  --text-size: 1.125rem; /* 1.125rem = 18px, NavLinks & Page subtitle & Button text & Card title & timer text */
+  --cardtext-size: 1rem; /* 1rem = 16px, Card text & Card button text */
+
+  --title-size-sm: 1.5rem;
+  --navtitle-size-sm: 1rem;
+  --text-size-sm: 0.75rem;
+  --cardtext-size-sm: 0.625rem;
+
+  /* Letter weight */
+  --title-fw: bold; /* Page title & timer numbers */
+  --text-fw: 300; /* NavLinks & Page subtitle & Button text & Card title & Timer text */
+
+  /* Letter color */
+  --color-text: #000000; /* most of the text */
+  --color-title: #0077ff; /* title */
+  --color-button_text: #ffffff; /* buttons */
+
+  /* Hover Text gradient */
+  --hover-gradient: linear-gradient(
+    to right,
+    #dd03ff 20%,
+    #0077ff 80%
+  ); /* Nav Links on hover */
+
+  /* Gradients */
+  --gradient-bg: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 1) 10%,
+    rgba(188, 188, 188, 1) 90%
+  ); /* Background & Box & Cards*/
+  --gradient-button: linear-gradient(
+    120deg,
+    #dd03ff 10%,
+    #0077ff 90%
+  ); /* Buttons */
+
+  /* Width */
+  --icon-width: 1.875rem; /* 1.875rem = 30px, icons */
+  --bg-images_width: 25rem; /* 25rem = 400px, background images */
+
+  /* Box shadow */
+  --box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.35); /* Box & Cards & Buttons */
+
+  /* Border radius */
+  --bg-radius: 10px;
+  --btn-radius: 5px;
 }

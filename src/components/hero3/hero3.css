@@ -1,0 +1,17 @@
+.app__roadmap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.app__roadmap-title {
+  font-size: var(--title-size);
+  font-weight: var(--title-fw);
+  color: var(--color-title);
+  margin-bottom: 30px;
+}
+
+.app__roadmap-image {
+  width: min(100%, 1000px);
+}
