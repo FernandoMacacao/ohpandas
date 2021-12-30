@@ -31,9 +31,19 @@ function App() {
         <div className='app__box'>
           <Routes>
             <Route path="/" exact element={<Home/>}/>
-            <Route path="/purpose" exact element={<Content title={purpose.title} subtitle1={purpose.subtitle1} subtitle2={purpose.subtitle2} subtitle3={purpose.subtitle3} link1={purpose.link1} link2={purpose.link2} image={purpose.image}/>}/>
-            <Route path="/ourstory" exact element={<Content title={ourstory.title} subtitle1={ourstory.subtitle1} image={ourstory.image}/>}/>
-            <Route path="/ourteam" exact element={<Content title={ourteam.title} subtitle1={ourteam.subtitle1} image={ourteam.image}/>}/>
+            <Route path="/purpose" exact element={<Content title={purpose.title}
+                                                           subtitle1={purpose.subtitle1}
+                                                           subtitle2={purpose.subtitle2}
+                                                           subtitle3={purpose.subtitle3}
+                                                           link1={purpose.link1}
+                                                           link2={purpose.link2}
+                                                           image={purpose.image}/>}/>
+            <Route path="/ourstory" exact element={<Content title={ourstory.title}
+                                                            subtitle1={ourstory.subtitle1}
+                                                            image={ourstory.image}/>}/>
+            <Route path="/ourteam" exact element={<Content title={ourteam.title}
+                                                           subtitle1={ourteam.subtitle1}
+                                                           image={ourteam.image}/>}/>
             <Route path="/roadmap" exact element={<Roadmap/>}/>
           </Routes>
         </div>
