@@ -136,7 +136,3 @@
     font-size: var(--title-size-sm);
   }
 }
-
-.hidden {
-  display: none;
-}

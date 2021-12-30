@@ -13,7 +13,7 @@ const Hero = () => {
           <p className="app__hero-left_text-title">Buyers are donating to animal charity institutions in Portugal.</p>
           <p className="app__hero-left_text-subtitle">7,777 Open-Handed Pandas on the Polygon Blockchain</p>
         </div>
-        <ExternalLink href="https://opensea.io/" className='app__hero-left_link hidden'>
+        <ExternalLink href="https://opensea.io/" className='app__hero-left_link'>
           <img src={opensea} alt="OpenSea Logo" className="app__hero-left_link-img" />
           <p className="app__hero-left_link-text">Visit Our OpenSea</p>
         </ExternalLink>
